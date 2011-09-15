@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" 
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <parent>
+    <groupId>org.sonatype.oss</groupId>
+    <artifactId>oss-parent</artifactId>
+    <version>7</version>
+  </parent>
+  
+  <groupId>com.metaweb</groupId>
+  <artifactId>lessen</artifactId>
+  <packaging>jar</packaging>
+
+  <name>Lessen</name>
+  <description>A lightweight CSS+LESS parser</description>
+  <url>https://code.google.com/p/lessen/</url>
+  <version>1.0</version>
+
+  <licenses>
+    <license>
+      <name>New BSD License</name>
+      <url>http://www.opensource.org/licenses/bsd-license.php</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+      
+  <scm>
+    <connection>scm:svn:http://lessen.googlecode.com/svn/trunk/</connection>
+    <developerConnection>scm:svn:https://lessen.googlecode.com/svn/trunk/</developerConnection>
+    <url>http://lessen.googlecode.com/svn/trunk/</url>
+  </scm>
+
+  <developers>
+    <developer>
+      <name>David Huynh</name>
+    </developer>
+  </developers>
+  
+</project>
