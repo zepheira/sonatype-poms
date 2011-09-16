@@ -1,0 +1,10 @@
+.svn
+.project
+.classpath
+.settings
+LICENSE.txt
+README.txt
+lessen.jardesc
+src
+target
+tests
