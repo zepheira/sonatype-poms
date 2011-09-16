@@ -29,7 +29,8 @@ repositories anywhere:
 ```
 % cd whirlycache
 % svn co https://svn.java.net/svn/whirlycache~svn/tags/RELEASE_1_0_1/ .
-% mvn install:install-file -Dfile=nodistrib/lib/hibernate.jar -DgroupId=org.hibernate -DartifactId=hibernate -Dversion=2 -Dpackaging=jar
+% mvn install:install-file -Dfile=nodistrib/lib/hibernate2.jar -DgroupId=org.hibernate -DartifactId=hibernate -Dversion=2 -Dpackaging=jar
+% mvn -f compile-pom.xml compile
 % mvn source:jar javadoc:jar package gpg:sign repository:bundle-create
 % rm -rf ~/.m2/repository/org/hibernate/hibernate/2/
 ```
