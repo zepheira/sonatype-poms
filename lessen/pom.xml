@@ -26,6 +26,10 @@
       <distribution>repo</distribution>
     </license>
   </licenses>
+
+  <build>
+    <sourceDirectory>src</sourceDirectory>
+  </build>
       
   <scm>
     <connection>scm:svn:http://lessen.googlecode.com/svn/trunk/</connection>
