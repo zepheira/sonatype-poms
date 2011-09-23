@@ -15,7 +15,7 @@ Checkout Lessen rev8 in the `lessen/` directory:
 % mvn source:jar javadoc:jar package gpg:sign repository:bundle-create
 ```
 
-(Lessen doesn't have any external dependencies and easily built in Maven).
+(Lessen doesn't have any external dependencies and is easily built in Maven).
 
 ## Whirlycache
 
@@ -23,8 +23,8 @@ While [Whirlycache][5] has moved to GitHub and continues active development,
 the older version [1.0.1][6] is what our source currently depends on.
 
 Checkout Whirlycache 1.0.1 into whirlycache, and install the outdated Hibernate
-JAR into your local repository, which does not appear to available in Maven
-repositories anywhere:
+JAR into your local repository, which does not appear to be available in Maven
+repositories anywhere, nor is the precise version clear:
 
 ```
 % cd whirlycache
@@ -35,9 +35,10 @@ repositories anywhere:
 % rm -rf ~/.m2/repository/org/hibernate/hibernate/2/
 ```
 
-You could probably remove org/hibernate from your local Maven repository
-with no ill effects, other than re-downloading artifacts later if you're
-actively developing against them.
+So get rid of it when finished deploying.  You could probably remove
+org/hibernate from your local Maven repository with no ill effects,
+other than re-downloading artifacts later if you're actively developing
+against them.
 
 [1]: http://nexus.sonatype.org/oss-repository-hosting.html
 [2]: https://docs.sonatype.org/display/Repository/Uploading+3rd-party+Artifacts+to+Maven+Central
